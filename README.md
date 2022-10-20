@@ -11,7 +11,7 @@
 // @match        http://*/*
 // @match        https://*/*
 // @icon         https://www.google.com/chrome/static/images/chrome-logo-m100.svg
-// @require      https://cdn.zburu.com/list/jquery3.6.0.js
+// @require      https://cdn.bootcss.com/jquery/3.6.0/jquery.min.js
 // @grant        none
 // @license MIT
 // ==/UserScript==
