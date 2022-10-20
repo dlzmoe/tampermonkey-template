@@ -1,6 +1,8 @@
 # tampermonkey
 一个油猴脚本模板，复制编写即可。
 
+## 模板
+
 ```js
 // ==UserScript==
 // @name         Tampermonkey Nmae
@@ -23,3 +25,7 @@
   })
 })()
 ```
+
+## 开发脚本
+
+[https://greasyfork.org/zh-CN/scripts/453411-全局摸鱼看掘金沸点](https://greasyfork.org/zh-CN/scripts/453411-%E5%85%A8%E5%B1%80%E6%91%B8%E9%B1%BC%E7%9C%8B%E6%8E%98%E9%87%91%E6%B2%B8%E7%82%B9/code)
