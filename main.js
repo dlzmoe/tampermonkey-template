@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Tampermonkey Nmae
-// @namespace    https://github.com/zburu
+// @namespace    https://github.com/imzsh
 // @version      0.0.1
 // @description  Tampermonkey description
-// @author       zburu
+// @author       imzsh
 // @match        http://*/*
 // @match        https://*/*
 // @icon         https://www.google.com/chrome/static/images/chrome-logo-m100.svg
