@@ -9,10 +9,20 @@
 
 将代码复制到油猴脚本编辑器，然后在本地进行开发，开发完成之然后把 `app.bundle.js` 文件的内容替换到下面标注的文本。
 
+![image](https://imgbed.netlify.app/images/image.5im2u3ln3do0.png)
+
+模板写了一个简单的弹窗打开，运行后显示 `Compiled successfully.` 即为成功，打开 `http://localhost:8080/` 可以看到一个示例demo。
+
+```shell
+npm i
+
+npm start
+```
+
 ```js
 // ==UserScript==
 // @name         Tampermonkey Nmae
-// @namespace    https://github.dev/zishume/tampermonkey
+// @namespace    https://github.com/zishume/tampermonkey-template
 // @version      0.0.1
 // @description  Tampermonkey description
 // @author       zishume
@@ -24,16 +34,14 @@
 // @license MIT
 // ==/UserScript==
 
-(function() {
+(function () {
   'use strict';
-  
   // 替换
-  if(location.href === "http://localhost:8080/") return
+  if (location.href === "http://localhost:8080/") return
   let script = document.createElement('script')
-  script.src='http://localhost:8080/app.bundle.js'
+  script.src = 'http://localhost:8080/app.bundle.js'
   document.body.appendChild(script)
   // 替换
-
 })();
 ```
 
