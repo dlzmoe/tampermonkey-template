@@ -1,6 +1,6 @@
 ## tampermonkey-template
 
-一个油猴脚本模板，参考 https://github.com/kinyaying/wokoo 开发。
+油猴脚本模板，支持热更新，开发更便捷。参考 https://github.com/kinyaying/wokoo 开发。
 
 ## 流程
 
