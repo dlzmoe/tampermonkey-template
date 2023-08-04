@@ -1,6 +1,6 @@
 ## tampermonkey-template
 
-油猴脚本模板，支持热更新，开发更便捷。参考 https://github.com/kinyaying/wokoo 开发。
+油猴脚本模板，支持热更新，开发更便捷。
 
 ## 流程
 
@@ -50,3 +50,7 @@ npm start
 
 - [https://greasyfork.org/zh-CN/scripts/454963-v2ex图片灯箱插件](https://greasyfork.org/zh-CN/scripts/454963-v2ex%E5%9B%BE%E7%89%87%E7%81%AF%E7%AE%B1%E6%8F%92%E4%BB%B6/code)
 
+
+## 致谢
+
+- https://github.com/kinyaying/wokoo
