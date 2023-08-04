@@ -1,6 +1,7 @@
 {
-  "name": "d",
+  "name": "tampermonkey-template",
   "version": "0.0.1",
+  "author": "zishume",
   "private": true,
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server",
