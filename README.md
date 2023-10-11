@@ -9,7 +9,7 @@
 
 将 `tampermonkey.js` 代码复制到油猴脚本编辑器，然后在本地进行开发，开发完成之然后把 `app.bundle.js` 文件的内容替换到下面标注的文本。
 
-![image](https://imgbed.netlify.app/images/image.5im2u3ln3do0.png)
+![image](https://imgurl.zishu.me/images/image.5im2u3ln3do0.png)
 
 
 ```js
