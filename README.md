@@ -1,6 +1,8 @@
-## tampermonkey-template
+## MyTampermonkey
 
 油猴脚本模板，支持热更新，开发更便捷。
+
+`/data` 文件夹下是自己开发的脚本。
 
 ## 流程
 
@@ -9,16 +11,13 @@
 
 将 `tampermonkey.js` 代码复制到油猴脚本编辑器，然后在本地进行开发，开发完成之然后把 `app.bundle.js` 文件的内容替换到下面标注的文本。
 
-![1697014244069](https://imgurl.zishu.me/images/1697014244069.jpg)
-
-
 ```js
 // ==UserScript==
 // @name         Tampermonkey Nmae
-// @namespace    https://github.com/zishume/tampermonkey-template
+// @namespace    https://github.com/98zi/MyTampermonkey
 // @version      0.0.1
 // @description  Tampermonkey description
-// @author       zishume
+// @author       98zi
 // @match        http://*/*
 // @match        https://*/*
 // @icon         https://www.google.com/chrome/static/images/chrome-logo-m100.svg
@@ -48,7 +47,8 @@ npm start
 
 ## 开发脚本
 
-- [https://greasyfork.org/zh-CN/scripts/454963-v2ex图片灯箱插件](https://greasyfork.org/zh-CN/scripts/454963-v2ex%E5%9B%BE%E7%89%87%E7%81%AF%E7%AE%B1%E6%8F%92%E4%BB%B6/code)
+- [v2ex 图片灯箱插件](./data/v2ex图片灯箱插件.js)
+- [feedly 汉化脚本](./data/feedly汉化脚本.js)
 
 
 ## 致谢
