@@ -1,30 +1,58 @@
 // ==UserScript==
-// @name        feedly汉化脚本
+// @name        feeder汉化脚本
 // @namespace   https://github.com/98zi/MyTampermonkey
 // @version     0.0.1
 // @author      98zi
-// @description feedly.com 汉化脚本
-// @include     *://feedly.com/*
+// @description feeder.com 汉化脚本
+// @include     *://feeder.co/*
 // @license     MIT
-// @icon        https://feedly.com/favicon.ico
+// @icon        https://feeder.co/favicon.ico
 // @grant       none
 // @run-at      document-start
+// @downloadURL https://update.greasyfork.org/scripts/481157/feeder%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC.user.js
+// @updateURL https://update.greasyfork.org/scripts/481157/feeder%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC.meta.js
 // ==/UserScript==
 
 const zh_Hans = [
-	['Today', '今日'],
-	['Read later', '稍后阅读'],
-	['Read Later', '稍后阅读'],
-	['Feedly AI', 'FeedLy AI'],
-	['No Read Later stories yet', '暂无稍后阅读'],
-	['The articles you want to read later will be here', '您稍后要阅读的文章将在此处'],
-	['Integrations & API', '集成和 API'],
-	['All', '全部'],
-	['Create New Folder', '创建新文件夹'],
-	['Create New Board', '创建看板'],
-	['Recently Read', '最近阅读'],
-	['There are no unread articles in your Feedly', '您的 Feedly 中没有未读文章'],
-	['All done', '全部完成'],
+	['All feeds', '全部订阅'],
+	['Unread', '未读'],
+	['Starred', '星标'],
+	['Home', '首页'],
+	['Dashboard', '图表'],
+	['Rules', '规则'],
+	['Team', '团队'],
+	['Library', '列表'],
+	['Account', '账户'],
+	['Help', '帮助'],
+	['Collapse', '收起'],
+	['Reload feeds', '重新加载源数据'],
+	['Open all unread...', '打开所有未读'],
+	['Mark all as read', '全部标为已读'],
+	['Mark feed as read', '将 feed 标为已读'],
+	['Export posts', '导出帖子'],
+	['Go to page', '跳转到网站'],
+	['Edit feed', '编辑 feed'],
+	['Delete feed', '删除 feed'],
+	['Filters', '过滤'],
+	['Display', '展示'],
+	['Order', '排序'],
+	['Newest first', '最新'],
+	['Oldest first', '最旧'],
+	['Realtime', '实时'],
+	['Auto-update', '自动更新'],
+	['Content style', '风格'],
+	['Timestamp', '时间戳'],
+	['Previous post', '上一篇'],
+	['Next post', '下一篇'],
+	['Share post', '分享'],
+	['Mark as unread', '标记为已读'],
+	['Star post', '收藏'],
+	['Toggle collections', '切换集合'],
+	['Simple', '简单布局'],
+	['Full', '源站布局'],
+	['Free ', '免费'],
+	['My account ', '我的账户'],
+	['Settings ', '设置'],
 ];
 
 class ReplaceText {
