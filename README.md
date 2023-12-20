@@ -49,6 +49,7 @@ npm start
 
 - [v2ex 图片灯箱插件](./data/v2ex图片灯箱插件.js)
 - [feedly 汉化脚本](./data/feedly汉化脚本.js)
+- [Netlify 汉化脚本](./data/Netlify汉化脚本.js)
 
 
 ## 致谢
