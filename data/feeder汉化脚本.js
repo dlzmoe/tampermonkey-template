@@ -8,9 +8,6 @@
 // @license     MIT
 // @icon        https://feeder.co/favicon.ico
 // @grant       none
-// @run-at      document-start
-// @downloadURL https://update.greasyfork.org/scripts/481157/feeder%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC.user.js
-// @updateURL   https://update.greasyfork.org/scripts/481157/feeder%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC.meta.js
 // ==/UserScript==
 
 const zh_Hans = [
