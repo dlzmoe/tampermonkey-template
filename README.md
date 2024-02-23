@@ -1,8 +1,6 @@
-## MyTampermonkey
+## tampermonkey-template
 
 油猴脚本模板，支持热更新，开发更便捷。
-
-`/data` 文件夹下是自己开发的脚本。
 
 ## 流程
 
@@ -14,7 +12,7 @@
 ```js
 // ==UserScript==
 // @name         Tampermonkey Nmae
-// @namespace    https://github.com/98zi/MyTampermonkey
+// @namespace    https://github.com/98zi/tampermonkey-template)
 // @version      0.0.1
 // @description  Tampermonkey description
 // @author       98zi
@@ -44,14 +42,6 @@ npm install
 
 npm start
 ```
-
-## 开发脚本
-
-- [v2ex 图片灯箱插件](./data/v2ex图片灯箱插件.js)
-- [feedly 汉化脚本](./data/feedly汉化脚本.js)
-- [Netlify 汉化脚本](./data/Netlify汉化脚本.js)
-- [douyin 下载](./data/douyin下载.js)
-
 
 ## 致谢
 
