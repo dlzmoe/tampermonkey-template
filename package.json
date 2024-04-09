@@ -1,10 +1,10 @@
 {
-  "name": "tampermonkey-template",
+  "name": "tampermonkey-scripts",
   "version": "0.0.1",
-  "author": "zishume",
+  "author": "98zi",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "webpack"
   },
   "dependencies": {

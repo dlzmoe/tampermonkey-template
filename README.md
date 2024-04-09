@@ -1,8 +1,16 @@
-## tampermonkey-template
+## tampermonkey-scripts
 
 油猴脚本模板，支持热更新，开发更便捷。
 
-## 流程
+## 1. 文件目录
+
+| 路径        | 解释                                                         |
+| ----------- | ------------------------------------------------------------ |
+| `/src`      | 开发目录                                                     |
+| `/template` | 模板文件                                                     |
+| `/packages` | 脚本目录(自用的油猴脚本，可能不适用于其他场景，可自行修改。) |
+
+## 2. 开发流程
 
 > **开发环境**  
 > Node: 14.15.0
@@ -12,7 +20,7 @@
 ```js
 // ==UserScript==
 // @name         Tampermonkey Nmae
-// @namespace    https://github.com/98zi/tampermonkey-template)
+// @namespace    https://github.com/98zi/tampermonkey-scripts)
 // @version      0.0.1
 // @description  Tampermonkey description
 // @author       98zi
@@ -35,14 +43,22 @@
 })();
 ```
 
-本地运行后显示 `Compiled successfully.` 即为成功，打开 `http://localhost:8080/` 可以看到一个示例 demo。
+安装依赖并运行。
 
 ```shell
+yarn 
+yarn dev 
+# or
 npm install
-
-npm start
+npm run start
 ```
 
-## 致谢
+本地运行后显示 `Compiled successfully.` 即为成功，打开 `http://localhost:8080/` 可以看到一个示例 demo。
+
+## 3. 参考项目
 
 - https://github.com/kinyaying/wokoo
+
+## 4. LICENSE
+
+[MIT License](./LICENSE)
