@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        Netlify 汉化脚本
-// @namespace   https://github.com/98zi/MyTampermonkey
+// @namespace   https://github.com/anghunk/MyTampermonkey
 // @version     0.0.1
-// @author      98zi
+// @author      anghunk
 // @description Netlify 汉化脚本
 // @include     *://*/netlify.com/*
 // @license     MIT
