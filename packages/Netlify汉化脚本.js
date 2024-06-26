@@ -1,14 +1,16 @@
 // ==UserScript==
 // @name        Netlify 汉化脚本
-// @namespace   https://github.com/anghunk/MyTampermonkey
+// @namespace   https://github.com/dlzmoe/tampermonkey-scripts
 // @version     0.0.1
-// @author      anghunk
-// @description Netlify 汉化脚本
-// @include     *://*/netlify.com/*
+// @author      dlzmoe
+// @description 由于官方不支持中文，汉化 Netlify 大部分的翻译
+// @include     *://*.netlify.com/*
 // @license     MIT
 // @icon        https://app.netlify.com/favicon-48x48.png
 // @grant       none
 // @run-at      document-start
+// @downloadURL https://update.greasyfork.org/scripts/484197/Netlify%20%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC.user.js
+// @updateURL https://update.greasyfork.org/scripts/484197/Netlify%20%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC.meta.js
 // ==/UserScript==
 
 const zh_Hans = [
@@ -116,10 +118,7 @@ const zh_Hans = [
 	['Production domains', '生产环境'],
 	['Your site is always accessible at a netlify.app subdomain based on the site name. Custom domains allow visitors to access your site at your own domains.', '您的网站始终可以根据网站名称通过 netlify.app 子域进行访问。自定义域允许访问者通过您自己的域访问您的网站。'],
 	['Add domain alias', '新增自定义域名'],
-	['xxxxxxxx', 'xxxxxxxx'],
-	['xxxxxxxx', 'xxxxxxxx'],
-	['xxxxxxxx', 'xxxxxxxx'],
-	['xxxxxxxx', 'xxxxxxxx'],
+  ['Visual editor dashboard', '可视化编辑器仪表板'],
 ];
 
 class ReplaceText {

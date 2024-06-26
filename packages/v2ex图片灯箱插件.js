@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         v2ex 图片灯箱插件
-// @namespace    https://github.com/anghunk
+// @namespace    https://github.com/dlzmoe/tampermonkey-scripts
 // @version      0.0.5
 // @description  v2ex 图片灯箱插件，可以使用滚轮放大缩小。
-// @author       anghunk
+// @author       dlzmoe
 // @match        *://v2ex.com/*
 // @match        *://*.v2ex.com/*
 // @match        *://www.v2ex.com/*

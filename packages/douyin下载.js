@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         抖音视频下载 - 需进入详情页
-// @namespace    https://github.com/anghunk/myTampermonkey-Script
+// @namespace    https://github.com/dlzmoe/tampermonkey-scripts
 // @version      0.0.1
 // @description  Tampermonkey description
-// @author       anghunk
+// @author       dlzmoe
 // @match        https://*.douyin.com/*
 // @icon         https://p-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/favicon.png
 // @require      https://cdn.bootcss.com/jquery/3.6.0/jquery.min.js

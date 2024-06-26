@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        feeder 汉化脚本
-// @namespace   https://github.com/anghunk/MyTampermonkey
+// @namespace   https://github.com/dlzmoe/tampermonkey-scripts
 // @version     0.0.2
-// @author      anghunk
+// @author      dlzmoe
 // @description feeder.com 汉化脚本
 // @include     *://feeder.co/*
 // @license     MIT
